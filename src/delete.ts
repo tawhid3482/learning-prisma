@@ -8,11 +8,7 @@ const main = async () => {
   //       id: 1,
   //     },
   //   });
-  const deleteData = await prisma.post.deleteMany({
-    where: {
-      author: "asi5",
-    },
-  });
+  const deleteData = await prisma.post.deleteMany({});
 };
 
 main();
